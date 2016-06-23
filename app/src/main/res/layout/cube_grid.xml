@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_one_one"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+                <Button
+                    android:id="@+id/btn_one_two"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+                <Button
+                    android:id="@+id/btn_one_three"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_two_one"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+                <Button
+                    android:id="@+id/btn_two_two"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+                <Button
+                    android:id="@+id/btn_two_three"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_three_one"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+                <Button
+                    android:id="@+id/btn_three_two"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+                <Button
+                    android:id="@+id/btn_three_three"
+                    android:layout_width="@dimen/cube_ht_wd"
+                    android:layout_height="@dimen/cube_ht_wd"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
